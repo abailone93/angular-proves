@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Prova M15';
   navegador = '';
+  inicio = 'Home';
+  camaras = 'Camaras';
+  tripodes = 'Tripodes';
+  sobre = 'Sobre';
+  Dropdown = 'Dropdown';
 }
 
 /*
