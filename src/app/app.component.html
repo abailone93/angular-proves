@@ -1,24 +1,39 @@
 <h1>{{title}}</h1>
 <nav>{{navegador}}
     <ul>
-        <li>
-            
-        </li>
-        <li>
-            {{inicio}}
-        </li>
-        <li>
-
-        </li>
-        <li>
-
-        </li>
-        <li>
-
-        </li>
-        <li>
-
-        </li>
+        <div>
+            <li>
+                
+            </li>
+            <li>
+                {{inicio}}
+            </li>
+            <li>
+                {{camaras}}
+            </li>
+            <li>
+                {{tripodes}}
+            </li>
+            <li>
+                {{sobre}}
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+                </div>
+            </li>
+        </div>
+        <div>
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
     </ul>
 </nav>
 
