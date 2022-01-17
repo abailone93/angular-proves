@@ -33,11 +33,10 @@ li:hover {
   background-color: rgb(169, 84, 209);
   color: white;
   display: block;
-  z-index: 1;
+  position: absolute;
 }
 .dropdown-content a {
   display: block;
-  position: absolute;
   padding: 10px 15px;
   text-decoration: none;
   text-align: center;
