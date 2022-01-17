@@ -6,7 +6,7 @@ ul div {
   display: inline-block;
 }
 li {
-  background-color: rgb(100, 54, 228);
+  background-color: rgb(25, 37, 64);
   padding: 2px;
 }
 li:hover {
@@ -36,11 +36,10 @@ li:hover {
   z-index: 1;
 }
 .dropdown-content a {
+  display: block;
   position: absolute;
-  float: none;
   padding: 10px 15px;
   text-decoration: none;
-  display: block;
   text-align: center;
 }
 .dropdown-content a:hover {
