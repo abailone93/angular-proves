@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Prova M15';
-  imagen = Image;
+  imagen = '';
   navegador = '';
   inicio = 'Home';
   camaras = 'Camaras';
